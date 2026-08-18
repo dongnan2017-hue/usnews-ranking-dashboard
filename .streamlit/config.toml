@@ -1,0 +1,12 @@
+[server]
+# Bind to localhost only by default. Override at run time for LAN or container use.
+address = "127.0.0.1"
+port = 8501
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#5B2A86"
